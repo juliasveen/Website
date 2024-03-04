@@ -1,0 +1,176 @@
+/* Reset CSS */
+@font-face {
+    font-family: Arsenica;
+    src: url('ArsenicaTrial-Medium.ttf');
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Global Styles */
+body {
+    /*font-family: 'Arsenica', sans-serif;*/
+    font-family: Georgia, sans-serif;
+    background-color: #f6b3cf;
+    color: #333;
+    line-height: 1.6;
+}
+html {
+    scroll-behavior: smooth; /* Add smooth scrolling behavior */
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header {
+    background-color: #68213c; 
+    padding: 20px 0;
+}
+.header img {
+    width: 70px;
+    height: auto;
+}
+.header h1 {
+    font-family: 'Arsenica', sans-serif;
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+.hero {
+    background-color: #f6b3cf;
+    text-align: center;
+    padding-left: 0px;
+}
+.hero img {
+    width: 50%;
+    cursor: arrow;
+    border-radius: 10px;
+    padding-right: 20px; /* Adjust the padding as needed */
+    padding-left: 0px;
+}
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align content from left to right */
+}
+.text-container {
+    flex: 1;
+}
+.hero h2 {
+    font-size: 60px;
+    color: #ff69b4; /* Hot pink */
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+.btn {
+    display: inline-block;
+    background-color: #dd6888; /* Hot pink */
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btn:hover {
+    background-color: #68213c; /* Deep pink */
+    cursor: grab;
+}
+.features {
+    padding: 100px 0;
+}
+.features h3 {
+    font-size: 36px;
+    color: #ff69b4; /* Hot pink */
+    margin-bottom: 20px;
+}
+.features p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.footer {
+    background-color: #ff69b4; /* Hot pink */
+    padding: 20px 0;
+    text-align: center;
+}
+.footer p {
+    font-size: 18px;
+    color: #fff;
+}
+.war-chant,
+.ICT-link {
+    color: inherit; /* Inherit text color from parent */
+    text-decoration: none; /* Remove underline */
+    cursor: pointer; /* Change cursor to default */
+}
+.war-chant:hover,
+.ICT-link:hover {
+    color: gray; 
+    text-decoration: none; /* Remove underline on hover */
+    cursor: grab;
+}
+/* Custom CSS for adjusting icon size and layout */
+.icon img {
+    width: 55px; /* Adjust the width of icons */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 5px; /* Add spacing between icons */
+    transition: transform 0.5s;
+}
+.icon a:hover img {
+    transform: translateY(-8px);
+    cursor: grab;
+}
+.icon a {
+    display: inline-block; /* Display icons inline */
+}
+.feature {
+    display: flex; /* Use flexbox to arrange items */
+    align-items: center; /* Align items vertically */
+}
+.feature p {
+    flex: 1; /* Allow the paragraph to grow to fill available space */
+    margin-right: 20px; /* Add some space between the text and image */
+}
+.feature img {
+    max-width: 40%; /* Limit the width of the image */
+    margin-bottom: 20px;
+}
+.feature video {
+    width: 100%; /* Adjust width as needed */
+    max-width: 400px; /* Maximum width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Add this to increase the size of the case study picture */
+.case-study-picture {
+    width: 100%; /* Adjust width as needed */
+    max-width: 600px; /* Maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 20px; /* Add margin to separate from text */
+    cursor: grab;
+}
+
+/* Add this to move the Fenway Park picture up */
+.portfolio-picture {
+    width: 100%; /* Adjust width as needed */
+    max-width: 400px; /* Maximum width */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Adjust margin as needed */
+    cursor: grab;
+}
