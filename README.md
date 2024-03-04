@@ -1,5 +1,4 @@
-# Website
-Personal portfolio/website
+# Personal portfolio/website
 -	Platform: Visual Studio Code
 -	Languages: HTML and CSS (stylesheet language)
 -	Hosted on GitHub Pages
